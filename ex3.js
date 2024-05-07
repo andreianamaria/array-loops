@@ -2,7 +2,7 @@ const reverseArray = function (arr) {
   let reversedArr = [];
   let finalIndex = arr.length - 1;
   for (let i = finalIndex; i >= 0; i--) {
-      reversedArr.push(arr[i]);
+    reversedArr.push(arr[i]);
   }
   return reversedArr;
 }
