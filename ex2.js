@@ -1,17 +1,17 @@
 const printSum = function (arr) {
-    let suma = 0;
-    for (let i = 0; i < arr.length; i ++) {
-        suma += arr[i];
-    }
-    return suma;
+  let suma = 0;
+  for (let i = 0; i < arr.length; i ++) {
+    suma += arr[i];
+  }
+  return suma;
 }
 
 const printSumDoi = function (arr) {
-    let suma = 0;
-    arr.map((elem) => {
-        suma += elem;
-    });
-    return suma;
+  let suma = 0;
+  arr.map((elem) => {
+    suma += elem;
+  });
+  return suma;
 }
 
 const arr1 = [1, -5, 20, -34, 16, 29, 36, -4];
