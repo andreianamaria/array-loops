@@ -1,10 +1,10 @@
 const reverseArray = function (arr) {
-    let reversedArr = [];
-    let finalIndex = arr.length - 1;
-    for (let i = finalIndex; i >= 0; i--) {
-        reversedArr.push(arr[i]);
-    }
-    return reversedArr;
+  let reversedArr = [];
+  let finalIndex = arr.length - 1;
+  for (let i = finalIndex; i >= 0; i--) {
+      reversedArr.push(arr[i]);
+  }
+  return reversedArr;
 }
 
 const arr = [1, -5, 20, -34, 16, 29, 36, -4];
